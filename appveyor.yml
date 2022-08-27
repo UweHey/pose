@@ -2,8 +2,8 @@ version: '1.2.1.{build}'
 image: Visual Studio 2022
 environment:
   matrix:
-    targetframework: net48
-    targetframework: netcoreapp3.1
+    - targetframework: net48
+    - targetframework: netcoreapp3.1
     
 configuration:
   - Debug
